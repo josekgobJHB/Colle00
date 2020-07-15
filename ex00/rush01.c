@@ -6,10 +6,9 @@
 /*   By: josekgob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 08:53:07 by josekgob          #+#    #+#             */
-/*   Updated: 2020/07/15 15:56:15 by josekgob         ###   ########.fr       */
+/*   Updated: 2020/07/15 17:14:47 by josekgob         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include	<unistd.h>
 void ft_putchar(char    c);
 void rush01(int     x, int      y)
 {
