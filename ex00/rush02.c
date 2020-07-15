@@ -6,11 +6,14 @@
 /*   By: josekgob <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/15 08:53:07 by josekgob          #+#    #+#             */
-/*   Updated: 2020/07/15 15:56:15 by josekgob         ###   ########.fr       */
+/*   Updated: 2020/07/15 15:01:02 by josekgob         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include	<unistd.h>
-void ft_putchar(char    c);
+void ft_putchar(char    c)
+{
+				write(1, &c, 1);
+}
 void rush01(int     x, int      y)
 {
                 int 	counter;
@@ -55,4 +58,9 @@ void rush01(int     x, int      y)
                     ft_putchar('/');
                 }
                 ft_putchar('\n');
+}
+int		main(void)
+{
+				rush01(5, 5);
+				return	(0);
 }
